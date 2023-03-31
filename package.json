@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-after-deploy-navigation-fail",
+  "name": "nextjs-404-after-deployment",
   "version": "0.1.0",
   "private": true,
   "scripts": {
