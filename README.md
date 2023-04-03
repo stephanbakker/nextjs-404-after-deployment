@@ -12,7 +12,7 @@ However, in this specific case it fails to refresh.
 
 It will fail when:
 * The page needs `getServerSideProps` (Have not tried other fetch strategies!);
-* And the page is loaded on the root path (Have not tried if the specific `as` path is related).
+* And the page is loaded on the current path (using `as` prop).
 
 In this repository you can see this in action. It has a `/step1` route.
 Two of the navigation links will load this page on `/`, like `router.push('/step1', '/')` or `<Link href="/step1" as="/" />`
